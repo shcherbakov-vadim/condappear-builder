@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0987f04c-7fbf-4a02-a9ce-f8a45f708a15">
+  <producedTypes>
+    <objectType typeId="a041455d-8a2e-4554-9ef2-d6df5dc3c3d2" valueTypeId="2ff17ce9-b11a-4eb6-aa9e-500dd0e47840"/>
+    <refType typeId="2cbfbfeb-03d9-4da4-ac86-98ce5022de54" valueTypeId="71b66660-8beb-4d1e-ad6a-6404b1d54fae"/>
+    <selectionType typeId="a6c5000b-5ec0-4f18-8546-f3ca7cd10fcd" valueTypeId="c159484a-efe0-4baa-b8ae-270c2ba5218a"/>
+    <listType typeId="a9c986aa-ca45-422c-a997-2ae271bcacca" valueTypeId="fa4775da-9eef-4c2e-b229-e8dbeb2f25e3"/>
+    <managerType typeId="24bc6d88-4335-4130-8a90-50e86e0adb84" valueTypeId="23338755-567f-4798-8366-5286210c0e68"/>
+  </producedTypes>
+  <name>Документ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Документ.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="6b460f9d-8486-47be-aa44-b492fa8d3b98">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="23edda56-8447-4d4d-b2d2-6bebee4e1a98">
+    <producedTypes>
+      <objectType typeId="ba1d0fb7-c304-428d-ba42-7fcf961c924c" valueTypeId="cde12465-182f-4cfc-9037-d04cc75ca9bd"/>
+      <rowType typeId="f50c0675-39da-4a2f-9d8f-b15609b748b9" valueTypeId="5edcd4f8-50b5-4736-b792-3212fcdc4890"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="c2d49473-bea8-42e2-859b-317a75ab8849">
+      <name>Реквизит1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="133dcebd-4e8c-4ad4-a518-edc35c5f8098">
+      <name>Реквизит2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит2</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8acdefcd-50a3-4aea-a369-170c796828f6">
+      <name>Реквизит3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит3</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

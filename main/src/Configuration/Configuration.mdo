@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="491e3be0-7966-4d39-bc89-f33f672be305">
-  <name>Конфигурация</name>
+  <name>ПостроительУсловногоОформления</name>
   <synonym>
     <key>ru</key>
-    <value>Конфигурация</value>
+    <value>Построитель условного оформления</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="03ec608d-737c-4bfe-8b94-02855947b1a5"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e62cdf6c-30d4-4807-a8c8-89897b2a0952"/>
@@ -15,6 +15,8 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Щербаков Вадим</vendor>
+  <version>1.0.2.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -25,6 +27,18 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright (c) 2024-2026, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/shcherbakov-vadim</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/shcherbakov-vadim/condappear-builder</value>
+  </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
